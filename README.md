@@ -1,2 +1,2 @@
 # first-timers
-Basic programs for first timers to contribute
+Everyone is welcome here.
