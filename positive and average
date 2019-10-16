@@ -1,0 +1,19 @@
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+f=float(input())
+ls=[a,b,c,d,e,f]
+s=0
+sm=0
+av=0
+for i in ls:
+    if (i > 0 ):
+        s=s+1
+        sm=sm+i
+print(s,"valores positivos")
+if (s!=0):
+    print("%.1f" %(sm/s))
+else:
+    print("-nan")
