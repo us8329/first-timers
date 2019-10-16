@@ -1,0 +1,9 @@
+list1 = []
+n = input()
+for i in n:
+    for j in n:
+        for k in n:
+            x = int(i)+int(j)+int(k)
+            if x%3 == 0:
+                list1.append(i+j+k)
+print(set(list1))
